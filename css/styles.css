@@ -1,0 +1,38 @@
+/* Priority -> inline css > internal css > external css */
+body{
+    background-color: #93B1A6;
+}
+img{
+    height:120px; 
+    width:120px;
+}
+hr{
+    border-color: grey;
+    border-width: 5px; 
+    border-style: none; /*default value was "inset" */
+    border-top-style: dotted; /*same as (border-style: dotted none none )*/
+    height: 0px;
+    width: 5%; /* learn about % and px*/
+}
+h1{
+    color: #183D3D
+}
+h2{
+    color: #183D3D;
+}
+h3{
+    color: #183D3D;
+}
+h4{
+    color: #183D3D;
+}
+
+.eng:hover{
+    color: gray;
+    font-style: italic;
+
+}
+pre{
+    text-align: center;
+}
+/* class, 2 classes in one tag,pseudo class id */
